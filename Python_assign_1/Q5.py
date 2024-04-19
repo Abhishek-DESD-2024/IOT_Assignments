@@ -15,13 +15,13 @@ avg=float((sub1+sub2+sub3)/3)
 #print(avg)
 
 
-if (avg>=90 & avg<=100):
+if ((avg>=90) & (avg<=100)):
     print("Grade A")
-elif (avg>=80 & avg<=89):
+elif ((avg>=80) & (avg<=89)):
     print("Grade B")
-elif (avg >=70 & avg <=79):
+elif ((avg >=70) & (avg <=79)):
     print("Grade C")
-elif(avg>=60 & avg <=69):
+elif((avg>=60) & (avg <=69)):
     print("Grade D")
 else:
     print("Fail")
